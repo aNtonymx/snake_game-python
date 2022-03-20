@@ -11,7 +11,7 @@ check_errors = pygame.init()
 if (check_errors[1] > 0):
     print("Error " + check_errors[1])
 else:
-    print("Game Succesfully initialized")
+    print("Game Succesfully initialized(Oyun Başarıyla Başlatıldı)")
 
 pygame.display.set_caption("Snake Game")
 game_window = pygame.display.set_mode((frame_size_x, frame_size_y))
